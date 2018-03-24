@@ -24,19 +24,19 @@
 #define BIG         30
 
 #define HIP_L   2        // connect Servo Hip left to D2
-#define FOOT_L  4        // Connect Servo Foot Left to D4
-#define HIP_R   3        // Connect Servo Hip right to D3
+#define FOOT_L  3        // Connect Servo Foot Left to D4
+#define HIP_R   4        // Connect Servo Hip right to D3
 #define FOOT_R  5        // COnnect Servo Foot Right to D5
 
-#define PIN_Buzzer  13
-#define PIN_Trigger 8
-#define PIN_Echo    9
-#define PIN_NoiseSensor A6
+#define PIN_Buzzer  A2
+#define PIN_Trigger 9
+#define PIN_Echo    10
+#define PIN_NoiseSensor 6   // Analog Pin A6 connect to noise sensor module
 ///define Bluetooth in SoftwareSerial 
-#define BT_Rx   6  
+#define BT_Rx   8  
 #define BT_Tx   7
 //define Max7219 pins 
-#define PIN_DIN    10   //max 7219
+#define PIN_DIN    6   //max 7219
 #define PIN_CS     11
 #define PIN_CLK    12
 
