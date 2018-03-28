@@ -12,7 +12,7 @@
 #include "Otto_mouths.h"
 #include "Otto_sounds.h"
 #include "Otto_gestures.h"
-#include "SoftSerialCommand.h"
+//#include "SoftSerialCommand.h"
 
 //-- Constants
 #define FORWARD     1
@@ -30,7 +30,7 @@
 
 #define PIN_Buzzer  A2
 #define PIN_Trigger 9
-#define PIN_Echo    10
+#define PIN_Echo    A3
 #define PIN_NoiseSensor 6   // Analog Pin A6 connect to noise sensor module
 ///define Bluetooth in SoftwareSerial 
 #define BT_Rx   8  

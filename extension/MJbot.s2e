@@ -2,7 +2,7 @@
 	"description": "MJBot - Otto family",
 	"version": "1.0.0",
 	"author": "STEMbot.vn",
-	"homepage": "https://github.com/stembotvn/MJBot",
+	"homepage": "https://stembot.vn",
 	"sort": 0,
 	"javascriptURL": "js/MJbot.js",
 	"firmware": "1.0",
