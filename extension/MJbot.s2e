@@ -158,32 +158,6 @@
 				"loop": ""
 			}
 		],
-		[
-			"r",
-			"Get Light in %m.light",
-			"getLight",
-			"LEFT",
-			{
-				"setup": "",
-				"inc": "",
-				"def": "",
-				"work": "analogRead({0})",
-				"loop": ""
-			}
-		],
-		[
-			"B",
-			"button %m.button_key pressed",
-			"getButton",
-			"key1",
-			{
-				"setup": "pinMode(A{0},INPUT_PULLUP);\n",
-				"inc": "",
-				"def": "",
-				"work": "(digitalRead(A{0})== 0)",
-				"loop": ""
-			}
-		],
 		["w",
 		"serial write text  %s", 
 		"serialWrite", "hello",
